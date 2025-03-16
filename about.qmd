@@ -1,0 +1,31 @@
+---
+title: ""
+format: 
+  html:
+    include-in-header:
+      text: |
+        <style>
+          body {
+            background-color: rgba(255, 255, 255, 1);
+          }
+        </style>
+
+    grid:
+      sidebar-width: 10px
+      body-width: 1200px
+      margin-width: 200px
+      gutter-width: 1.5rem
+---
+
+
+
+
+We are a comunity of **bioinformaticians** united by a common goal: **to make science more effective**.  
+
+  - **We develop tools** that help researchers analyze complex biological data, uncover patterns, and validate hypotheses with high precision.  
+
+  - **We advocate for open science**, ensuring that datasets, methods, and results are accessible and reproducible.  
+
+  - **We build a community** where experts collaborate, exchange knowledge, and push the boundaries of what’s possible in bioinformatics.  
+
+

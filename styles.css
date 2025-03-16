@@ -1,0 +1,139 @@
+/* css styles */
+.navbar a {
+    font-size: 24px; /* Увеличьте при необходимости */
+    font-weight: bold;
+    color: #ffffff !important; /* Замените #ffffff на нужный цвет */
+
+
+}
+.navbar {
+    height: 75px; /* Можно изменить на нужное значение */
+    background-color: rgba(187, 125, 178, 0.8) !important;
+}
+
+
+#quarto-margin-sidebar {
+  display: none;
+}
+
+#quarto-content {
+  max-width: 2500px;
+  margin: 0 auto;
+}
+
+.page-layout-custom {
+  max-width: 1200px; /* Устанавливаем фиксированную ширину */
+  margin: 0 auto; /* Центрируем */
+  padding: 20px; /* Добавляем отступы */
+}
+
+.custom-section {
+  grid-template-columns: 
+  max-width: 1200px; /* Блок займет 80% ширины родительского контейнера */
+  /*max-width: 1200px; /* Но не будет шире 1200 пикселей */
+ /* min-width: 300px; /* Минимальная ширина 300 пикселей */
+  padding: 20px;
+  margin: 0 auto; 
+
+}
+
+.grid {
+  display: grid;
+  padding: 40px;
+/*  grid-template-columns: repeat(3, 1fr);  3 равных колонки */
+  gap: 20px;  /* Расстояние между колонками */
+  justify-content: center;
+  align-items: center;
+}
+
+.g-col-4 {
+  text-align: center; /* Выравниваем текст по центру */
+}
+
+.page-layout-custom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Два столбца, второй шире */
+  gap: 20px; /* Расстояние между колонками */
+  padding: 20px;
+}
+
+.page-layout-custom .custom-content {
+  background-color: #f0f0f0; /* Фон для контента */
+  padding: 15px;
+  border-radius: 8px;
+  width: 1500px
+}
+
+.text-block {
+  display: inline-block; /* Ширина зависит от текста */
+  padding: 5px 10px; /* Добавляем отступы (верх/низ, лево/право) */
+  font-size: 18px;
+  text-align: center;
+  border: 0px solid #333;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  border-radius: 8px; /* Скругление углов */
+  cursor: pointer;
+  transition:  color 0.3s, border-color 0.3s;
+  margin: 3px;
+}
+
+/* При наведении */
+.text-block:hover {
+  color: #8b3d75;
+  border-color: #8b3d75;
+}
+
+/* При нажатии */
+.text-block:active {
+  color: black;
+  border-color: black;
+}
+
+@keyframes fadeInSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.navbar-brand {
+  animation: fadeIn 1.5s ease-in-out both;
+  animation-delay: 0.2s;
+  margin-right: 10px;
+}
+
+.navbar .nav-item, .navbar .nav-link, .navbar .tools {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out both;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: black; /* Замени на нужный цвет */
+}
+
+h2 {
+  border-bottom: 1px solid rgba(187, 125, 178, 0.8); /* Толщина, стиль и цвет линии */
+  padding-bottom: 0px; /* Отступ между текстом и линией */
+}
+
+.center-title {
+  text-align: center;
+}
+
