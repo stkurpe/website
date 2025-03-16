@@ -1,0 +1,30 @@
+project:
+  type: website
+  
+website:
+  title: "FREE POWER"
+  navbar:
+    search: false
+    left:
+      - href: index.qmd
+        text: Team
+      - href: about.qmd
+        text: Projects
+    tools:
+      - icon: send-fill
+        href: https://t.me/fre3power
+      - icon: envelope-open-fill
+        href: "mailto:freepower.bioinf@gmail.com"
+
+format:
+  html:
+    email-obfuscation: none
+    theme: default
+    css: styles.css
+    toc: true
+    margin-sidebar: false
+
+
+
+editor: visual
+

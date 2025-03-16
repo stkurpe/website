@@ -1,0 +1,67 @@
+---
+title: ""
+search: false
+format: 
+  html:
+    include-in-header:
+      text: |
+        <style>
+          body {
+            background-color: rgba(255, 255, 255, 1);
+          }
+        </style>
+
+    grid:
+      sidebar-width: 50px
+      body-width: 1400px
+      margin-width: 100px
+      gutter-width: 1.5rem
+---
+::::::: custom-section
+:::::: grid
+::: g-col-4
+![](img/Anastasia.jpg){width="275px" style="border-radius: 50%;"}
+
+### **Anastasia Gorbarenko** 
+<button class="text-block">Molecular biology</button>
+<button class="text-block">Chemoinformatics</button> 
+<button class="text-block">Genomics</button>
+<button class="text-block">Longevity</button>
+<button class="text-block">Machine learning</button>
+<button class="text-block">multi-omics</button>
+<button class="text-block">Predictive modeling</button>
+<button class="text-block">Pipeline optimization</button>
+:::
+::: g-col-4
+![](img/Pavel.jpg){width="275px" style="border-radius: 50%;"}
+
+### **Pavel Skoptsov** 
+
+<button class="text-block">Cancer biology</button>
+<button class="text-block">Immunology</button> 
+<button class="text-block">GCLP</button>
+<button class="text-block">Machine learning</button>
+<button class="text-block">single-cell RNAseq</button>
+<button class="text-block">Data visualization</button>
+<button class="text-block">Cloud computing</button>
+<button class="text-block">Tumor microenvironment analysis</button>
+:::
+::: g-col-4
+![](img/kurpe.jpg){width="275px" style="border-radius: 50%;"}
+
+### **Stanislav Kurpe** 
+
+<button class="text-block">Biochemystry</button>
+<button class="text-block">Proteomics</button> 
+<button class="text-block">Mass spectrometry</button>
+<button class="text-block">Translational science</button>
+<button class="text-block">Quality management</button>
+<button class="text-block">Data visualization</button>
+<button class="text-block">Data analytics</button>
+<button class="text-block">Interactive dashboards</button>
+:::
+::::::
+:::::::
+
+<h2 class="center-title">Free power of collaboration and knowledge – this is what drives us forward</h2>
+
